@@ -1,0 +1,8 @@
+# Built files
+build
+
+# Mac
+.DS_Store
+
+# Dependency directory
+node_modules

@@ -1,0 +1,13 @@
+{
+  "name": "dott-assignment",
+  "version": "0.0.1",
+  "description": "Dott assignment",
+  "main": "./build/main.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ricardo Souza",
+  "license": "ISC"
+}
