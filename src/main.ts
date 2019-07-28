@@ -1,6 +1,10 @@
 import { ParserHelper } from "./helpers/parser";
 import { BitmapHelpers } from "./helpers/bitmapHelper";
 
+/**
+ * Parsers the input according to the given specification.
+ * It generates a set of bitmaps from the input, and creates an matrix of distances in the output
+ */
 process.stdin.on("readable", () => {
     let chunk: string | Buffer
 
