@@ -3,10 +3,19 @@
   "version": "0.0.1",
   "description": "Dott assignment",
   "main": "./build/main.js",
-  "dependencies": {},
-  "devDependencies": {},
+  "dependencies": {
+    "@types/node": "^12.6.8"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.1.7",
+    "@types/mocha": "^5.2.7",
+    "chai": "^4.2.0",
+    "mocha": "^6.2.0",
+    "ts-node": "^8.3.0",
+    "typescript": "^3.5.3"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha -r ts-node/register tests/*.ts"
   },
   "author": "Ricardo Souza",
   "license": "ISC"
