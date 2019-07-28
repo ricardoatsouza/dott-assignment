@@ -1,5 +1,8 @@
 all: clean build test
 
+install:
+	npm install
+
 build: 
 	tsc
 
@@ -11,3 +14,6 @@ test:
 
 run:
 	node ./build/main.js
+
+build-docker:
+	docker build -t dott .
