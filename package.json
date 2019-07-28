@@ -18,5 +18,9 @@
     "test": "mocha -r ts-node/register tests/*.ts"
   },
   "author": "Ricardo Souza",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ricardoatsouza/dott-assignment.githttps://github.com/ricardoatsouza/dott-assignment.git"
+  }
 }
